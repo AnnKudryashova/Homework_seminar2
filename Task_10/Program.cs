@@ -6,8 +6,6 @@ Console.WriteLine("Введите трехзначное целое число")
 
 int number = int.Parse(Console.ReadLine());
 
-//int firstNumber = number/10;
-
 int secondNumber = number/10%10;
 
 if (secondNumber < 0)
